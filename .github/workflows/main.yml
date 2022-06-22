@@ -55,9 +55,9 @@ jobs:
           set -e -o pipefail
           ./cruelbuild config                    \
                        model=${{ matrix.model }} \
-                       name="Q1"                  \
+                       name="Q3"                  \
                        toolchain=$TOOLCHAIN      \
-                       +magisk=25.1              \
+                       +magisk=24.3              \
                        +nohardening              \
                        +ttl                      \
                        +wireguard                \
